@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #5F4B8B;
+    /*background-color: #5F4B8B;*/
+    background-image: url('https://cdn.pressstart.com.au/wp-content/uploads/2016/02/Header.png');
+    background-repeat: no-repeat;
+    background-size:cover;
     margin: 0px;
 }
 
@@ -27,13 +30,19 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #272727;
+    /*
+    background-image: url('https://i.imgur.com/J3Isp0R.png');
+    background-repeat: no-repeat;
+    background-size:cover;*/
+
     display: none;
-    position: absolute;
+
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 
 #search-field {
     width: 90%;
@@ -98,8 +107,30 @@ body {
     height: 10em;
     margin: 0em .5em;
 }
+/*DO ILS-rates-set*/
+.ILS-rates-set{
+    padding: 1em;
+    background-color: #272727;
+    border-radius: 3px;
+    font-family: "Roboto Mono";
+    font-size: .85rem;
+    display:block;
+    width: 25%;
+    height: 10em;
+    margin: 0em .5em; 
+    position: absolute;
+    top:20px;
+    left:10px;
+}
+.Rate-p{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #8c8c8b;
+    display:block;
+    margin: .5em 0em;
+}
 .bookmark-inner-container {
-    overflow-y: scroll;
+
     height: 80%;
     vertical-align: top;
 }
